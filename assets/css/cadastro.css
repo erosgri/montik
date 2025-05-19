@@ -1,0 +1,149 @@
+/* Estilo base compartilhado por login e cadastro */
+body.sessao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  background-color: grey;
+  box-sizing: border-box;
+}
+
+/* Cabeçalho comum */
+.cabecalho {
+  background-color: black;
+  width: 100%;
+  max-width: 1340px;
+  color: #030303;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cabecalho>h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+/* Container principal */
+.conteudo {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+/* Título das páginas */
+.conteudo h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Card do formulário */
+.principal {
+  width: 100%;
+  background-color: gray;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos comuns dos campos */
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+body.cadastro {
+  background-color: grey;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* aqui */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  background-color: grey;
+  /* cinza */
+  box-sizing: border-box;
+}
+
+/* Botão padrão */
+button {
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Link de retorno */
+.botao-voltar {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Mensagem de erro */
+.erro {
+  background-color: #ffe5e5;
+  color: #a30000;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+/* Rodapé */
+.rodape {
+  width: 100%;
+  background-color: gray;
+  color: black;
+  text-align: right;
+  padding: 10px 20px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+.rodape h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #f50202;
+  display: inline-block;
+}

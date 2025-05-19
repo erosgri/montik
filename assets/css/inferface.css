@@ -1,0 +1,48 @@
+body.exercicioa {
+    grid-template-rows: 140px 45px 1fr 30px;
+    grid-template-areas:
+        "cabecalho"
+        "navegacao"
+        "principal"
+        "rodape";
+
+
+
+}
+
+.principal {
+    height: calc(100vh - 180px);
+
+
+}
+
+.navegacao {
+
+    grid-area: navegacao;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:gray;
+
+}
+
+.navegacao>a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 1.7rem;
+    padding: 10px 10px;
+    margin-right: 15px;
+
+}
+
+
+
+
+.conteudo {
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
